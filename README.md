@@ -26,7 +26,7 @@ Criar o modelo físico (tabelas e relações) usando SQL.
 
 ### Back end  
 
-Usando os conceitos de projeto MVC e C# .Net, criar um projeto aplicando o CRUD (Create, Read, Update, Delete) para todas as tabelas de seu modelo. 
+Usando os conceitos de projeto MVC e C# .NET, criar um projeto aplicando o CRUD (Create, Read, Update, Delete) para todas as tabelas de seu modelo. 
 
 ### Front end 
 ##### 1ª Passo:  
