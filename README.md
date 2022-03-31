@@ -3,7 +3,9 @@ A Recogency faz parte de uma idéia criada para as entregas individuais do curso
 
 <div align="center">
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648756103/v1_recogency_promocoes_unpzew.jpg"/>
+  </br></br></br>
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648756103/v1_recogency_promocoes2_qb0met.jpg"/>
+  </br></br></br>
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648756103/v1_recogency_contato_bxnszu.jpg"/>
 </div>
 
