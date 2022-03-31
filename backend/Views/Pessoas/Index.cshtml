@@ -1,0 +1,68 @@
+﻿@model IEnumerable<site.Models.Pessoas>
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<h1>Cadastro</h1>
+
+<br><br><br><br>
+
+<p>
+    <a class="botao" asp-action="Create">Criar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Origem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Saída)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Retorno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preço)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Origem)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Destino)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saída)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Retorno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preço)
+                </td>
+                <td>
+                    <a class="botao" asp-action="Edit" asp-route-id="@item.ID">Editar</a> |
+                    <a class="botao" asp-action="Details" asp-route-id="@item.ID">Detalhes</a> |
+                    <a class="botao" asp-action="Delete" asp-route-id="@item.ID">Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

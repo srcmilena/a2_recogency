@@ -1,0 +1,49 @@
+﻿@model IEnumerable<site.Models.AtendimentoContato>
+
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<h1>Contato</h1>
+
+<br><br><br><br>
+
+<p>
+    <a class="botao" asp-action="Create">Criar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mensagem)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mensagem)
+            </td>
+            <td>
+                <a class="botao" asp-action="Edit" asp-route-id="@item.ID">Editar</a> | 
+                <a class="botao" asp-action="Details" asp-route-id="@item.ID">Detalhes</a> |
+                <a class="botao" asp-action="Delete" asp-route-id="@item.ID">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

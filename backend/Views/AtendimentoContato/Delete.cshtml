@@ -1,0 +1,41 @@
+﻿@model site.Models.AtendimentoContato
+
+@{
+    ViewData["Title"] = "Apagar";
+}
+
+<h1>Apagar</h1>
+
+<br><br><br><br>
+
+<h3>Você realmente quer apagar?</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mensagem)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mensagem)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a class="botao" asp-action="Index">Voltar para a lista</a>
+    </form>
+</div>
