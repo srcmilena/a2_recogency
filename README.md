@@ -1,4 +1,5 @@
 # Recogency
+### 2nd individual assignment, module 3
 "Recogency" is part of an idea created for the individual assignment of Recode Pro full stack development course. The focus of the site is to be an agency that offers travel packages as the main service. The application involves front end and back end development.
 
 <div align="center">
