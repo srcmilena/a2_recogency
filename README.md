@@ -12,14 +12,19 @@
 ## My assignment
 Continuing the website design for the travel agency, where it was necessary to contemplate a layout structure with a horizontal menu at the top of all pages: HOME, DESTINATIONS, PROMOTIONS, CONTACT.
 
+***
 
 ### Data modeling  
 - Creation of the conceptual, logical model using a data modeling tool; 
 - Creation of the relationships and cardinalities between the tables in the model; 
 - Creation of the physical model (tables and relations) using SQL. 
 
+***
+
 ### Back end  
 Using MVC and C# .Net design concepts, a project was created applying CRUD (Create, Read, Update, Delete) to all tables in its model. 
+
+***
 
 ### Front end 
 ##### 1st step
