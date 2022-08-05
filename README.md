@@ -1,5 +1,5 @@
 # Recogency
-A Recogency faz parte de uma idéia criada para as entregas individuais do curso de desenvolvimento full stack da Recode Pro. O foco do site é ser uma agência que oferece pacotes de viagens como sendo o principal serviço. A aplicação envolve desenvolvimento front end e back end.
+"Recogency" is part of an idea created for the individual assignment of Recode Pro full stack development course. The focus of the site is to be an agency that offers travel packages as the main service. The application involves front end and back end development.
 
 <div align="center">
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648756103/v1_recogency_promocoes_unpzew.jpg"/>
@@ -9,32 +9,21 @@ A Recogency faz parte de uma idéia criada para as entregas individuais do curso
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648756103/v1_recogency_contato_bxnszu.jpg"/>
 </div>
 
-## Anúncio na plataforma da Recode Pro:
-"Olá, Estudante! 
+## My assignment
+Continuing the website design for the travel agency, where it was necessary to contemplate a layout structure with a horizontal menu at the top of all pages: HOME, DESTINATIONS, PROMOTIONS, CONTACT.
 
-Nesta atividade, vamos dar continuidade à criação do site para a agência de viagens. Nesta entrega, contemple uma estrutura de layout com um menu horizontal na parte superior de todas as páginas: HOME, DESTINOS, PROMOCOES, CONTATO.
 
-Atente-se às seguintes orientações:  
-
-### Modelagem de dados:  
-
-Criar o modelo conceitual, lógico usando uma ferramenta de modelagem de dados; 
-
-Criar as relações e cardinalidades entre as tabelas do modelo; 
-
-Criar o modelo físico (tabelas e relações) usando SQL. 
+### Data modeling  
+- Creation of the conceptual, logical model using a data modeling tool; 
+- Creation of the relationships and cardinalities between the tables in the model; 
+- Creation of the physical model (tables and relations) using SQL. 
 
 ### Back end  
-
-Usando os conceitos de projeto MVC e C# .NET, criar um projeto aplicando o CRUD (Create, Read, Update, Delete) para todas as tabelas de seu modelo. 
+Using MVC and C# .Net design concepts, a project was created applying CRUD (Create, Read, Update, Delete) to all tables in its model. 
 
 ### Front end 
-##### 1ª Passo:  
-Criar as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo de dados usando HTML e CSS raiz, faça as formatações de acordo com a paleta de cores escolhida; 
+##### 1st step
+Creation of the pages: Home, Destination, Promotions, Contact and the others according to your data model using HTML and CSS, format them according to the color palette chosen.
 
-##### 2º Passo:  
-Criar versão do frontend anterior usando o framework Bootstrap, com o conceito de responsividade. 
-</br> 
-*(Esta versão deve ser o frontend que vai fazer a conexão com banco de dados e o padrão MVC).*"
-
-  
+##### 2nd step  
+Creation of the previous front end version using Bootstrap framework, with the concept of responsiveness. 
